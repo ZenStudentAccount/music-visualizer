@@ -1,0 +1,20 @@
+body {
+  background-color: #111; /* ほぼ黒 */
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#container {
+  text-align: center;
+}
+
+canvas {
+  border-bottom: 2px solid #00f260; /* 下線だけ引いてみる */
+  display: block;
+  margin-top: 20px;
+}
